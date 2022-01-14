@@ -2,7 +2,25 @@
 
 ## Functional Requirements
 
-### English
+### Abstract Functions
+
+#### English
+- Function to retrieve messages
+- Function to send the retrieved message to the API
+- Function to measure the degree of slander
+- Function to send the measurement result to slack
+- Functionality for slackbot to send warnings
+
+#### 日本語
+- メッセージを取得する機能
+- APIに取得したメッセージを送る機能
+- 誹謗中傷度計測機能
+- 測定結果をslackに送る機能
+- slackbotが警告を送信する機能
+
+### Specific Functions
+
+#### English
 - User can send messages in Slack, the alert-bot can check whether it is a slanderous message based on slander level.
 - When a slanderous message is sent, the alert-bot sends a warning message.
 - The number of slanderous messages is counted, and if a message is slandered more than five times in a week, for example, the user is warned.
@@ -14,7 +32,7 @@
 - When the slack alert-bot receives a message from the slack channel, it posts the message to the slander API and receives a score 
 
 
-### 日本語
+#### 日本語
 
 - 誹謗中傷のメッセージが送信されると、ボットは警告メッセージを送信します。
 - 誹謗中傷の回数をカウントし、例えば1週間に5回以上誹謗中傷された場合は警告を表示します。
@@ -27,7 +45,7 @@
 - 誹謗中傷が一定期間発生しなかった場合のご褒美機能（今から具体化します）
 
 ## Domain Model
-- Glossary:
+### Glossary
 - user
 - slander
 - slander level
