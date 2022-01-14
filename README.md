@@ -1,6 +1,8 @@
 # PBL
 
 ## Functional Requirements
+
+### English
 - User can send messages in Slack, the alert-bot can check whether it is a slanderous message based on slander level.
 - When a slanderous message is sent, the alert-bot sends a warning message.
 - The number of slanderous messages is counted, and if a message is slandered more than five times in a week, for example, the user is warned.
@@ -10,6 +12,9 @@
 - Using a deep learning model to calculate the slander level of a message.
 - If the slander score is 0.6 or higher, the alert-bot will send a warning to the person who sent the slander.
 - When the slack alert-bot receives a message from the slack channel, it posts the message to the slander API and receives a score 
+
+
+### 日本語
 
 - 誹謗中傷のメッセージが送信されると、ボットは警告メッセージを送信します。
 - 誹謗中傷の回数をカウントし、例えば1週間に5回以上誹謗中傷された場合は警告を表示します。
@@ -29,3 +34,6 @@
 - slander level API
 - alert-bot
 - slack
+
+<img width="1168" alt="スクリーンショット 2022-01-14 14 53 29" src="https://user-images.githubusercontent.com/53958213/149458720-3f6e38e4-9ae8-4281-a4ca-9ccbb8ed6116.png">
+
