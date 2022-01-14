@@ -59,60 +59,60 @@
 ## Usecase Analysis
 
 ### メッセージを取得する機能 Function to retrieve messages
-#### Basic Course
-- slackAPIが指定のチャンネルに送信されたメッセージを検知 slackAPI detects a message sent to a specified channel.
-- 送信されたメッセージを取得する Retrieve the message that was sent.
-#### Alternative Course
-- メッセージの取得に失敗 Failed to retrieve message.
-- 再び取得を試みて、それでも取得できなければ終了 Try to get it again, and if you still can't get it, quit.
-- 運営に報告メッセージを送信する Send a report message to the management.
+- Basic Course
+  - slackAPIが指定のチャンネルに送信されたメッセージを検知 slackAPI detects a message sent to a specified channel.
+  - 送信されたメッセージを取得する Retrieve the message that was sent.
+- Alternative Course
+  - メッセージの取得に失敗 Failed to retrieve message.
+  - 再び取得を試みて、それでも取得できなければ終了 Try to get it again, and if you still can't get it, quit.
+  - 運営に報告メッセージを送信する Send a report message to the management.
 <br>
 
 ### APIに取得したメッセージを送る機能 Function to send the retrieved message to the API
-#### Basic Course:
-- Retrieving the message
-- Send the message to the API successfully. 
-#### Alternative Course:
-- Not retrieved messages fail to send the message to the API.
+- Basic Course:
+  - Retrieving the message
+  - Send the message to the API successfully. 
+- Alternative Course:
+  - Not retrieved messages fail to send the message to the API.
 <br>
 
 
 ### Function to measure the degree of slander
-#### Basic
-- Receive a message.
-- Analyze the message using form factors.
-- Input the form-factor-analyzed message to the learned Bert, and estimate the degree of slander.
-- The learned Bert outputs the slander level.
-- Return the slander level.
-#### Alternative Course
-- It takes time for Bert to calculate the slander level, and if an error occurs, it outputs a timeout error.
+- Basic
+  - Receive a message.
+  - Analyze the message using form factors.
+  - Input the form-factor-analyzed message to the learned Bert, and estimate the degree of slander.
+  - The learned Bert outputs the slander level.
+  - Return the slander level.
+- Alternative Course
+  - It takes time for Bert to calculate the slander level, and if an error occurs, it outputs a timeout error.
 <br>
 
 ### 誹謗中傷度計測機能
-#### Basic
-- メッセージを受け取る。
-- メッセージを形要素解析する。
-- 学習したBertに形要素解析したメッセージを入力し、誹謗中傷度を推定する。
-- 学習したBertが誹謗中傷度を出力する。
-- 誹謗中傷度を返す。
-#### Alternative Course
-- Bertでの誹謗中傷度の算出に時間がかかり、エラーになればtime outのエラーを出力する。
+- Basic
+  - メッセージを受け取る。
+  - メッセージを形要素解析する。
+  - 学習したBertに形要素解析したメッセージを入力し、誹謗中傷度を推定する。
+  - 学習したBertが誹謗中傷度を出力する。
+  - 誹謗中傷度を返す。
+- Alternative Course
+  - Bertでの誹謗中傷度の算出に時間がかかり、エラーになればtime outのエラーを出力する。
 <br>
 
 ### Function to send the measurement result to slack
-#### Basic Course:
-- After measuring the degree of slander, the user can receive a measurement result in slack sent by slack bot.
-#### Alternative Course:
-- If the message is not slander, the user receives nothing in slack.
+- Basic Course:
+  - After measuring the degree of slander, the user can receive a measurement result in slack sent by slack bot.
+- Alternative Course:
+  - If the message is not slander, the user receives nothing in slack.
 <br>
 
 
 ### slackbotが警告を送信する機能 Functionality for slackbot to send warnings
-#### Basic Course:
-- slack botが警告メッセージを送ることに成功する. slack bot succed to send warning message to slack.
-- slackがbotから送られたメッセージを表示する. slack display message which slack bot send.
-#### Alternative Course:
-- slack botが警告メッセージを送ることに失敗(成功したというresponseがかえってこない). slack bot fail to send warning message to slack.(slack bot can’t get response of success from slack)
-- 4回までretryする slack bot retry to send message up to 4 times.
-- 4回失敗した場合、終了する. When slack bot fails 4 times to retry, slack bot stops sending messages.
+- Basic Course:
+  - slack botが警告メッセージを送ることに成功する. slack bot succed to send warning message to slack.
+  - slackがbotから送られたメッセージを表示する. slack display message which slack bot send.
+- Alternative Course:
+  - slack botが警告メッセージを送ることに失敗(成功したというresponseがかえってこない). slack bot fail to send warning message to slack.(slack bot can’t get response of success from slack)
+  - 4回までretryする slack bot retry to send message up to 4 times.
+  - 4回失敗した場合、終了する. When slack bot fails 4 times to retry, slack bot stops sending messages.
 <br>
