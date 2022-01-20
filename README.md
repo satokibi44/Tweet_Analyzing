@@ -76,7 +76,7 @@
 ### 誹謗中傷度計測機能 Function to measure the degree of slander
 - Basic
   - Receive a message.
-  - Analyze the message using form factors.
+  - Analyze the message using morphological analysis.
   - Input the form-factor-analyzed message to the learned Bert, and estimate the degree of slander.
   - The learned Bert outputs the slander level.
   - Return the slander level.
@@ -85,7 +85,7 @@
 
 - Basic
   - メッセージを受け取る。
-  - メッセージを形要素解析する。
+  - メッセージを形態素解析する。
   - 学習したBertに形要素解析したメッセージを入力し、誹謗中傷度を推定する。
   - 学習したBertが誹謗中傷度を出力する。
   - 誹謗中傷度を返す。
