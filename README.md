@@ -66,11 +66,12 @@
 
 ### APIに取得したメッセージを送る機能 Function to send the retrieved message to the API
 - Basic Course:
-  - Retrieving the message using function to retrieve message.
-  - Send the message to the API successfully. 
+  - Send the retrieved message to the API
 - Alternative Course:
-  - Not retrieved messages fail to send the message to the API.
+  - Fail to send the retrieved message to the API.
 <br>
+#### Usecase diagram of Function to send the retrieved message to the API
+<img width="1000" alt="スクリーンショット 2022-01-20 16 03 20" src="https://user-images.githubusercontent.com/46553513/150320031-4710bf69-8a76-41d9-92e0-8416cb2a427d.jpg" title="usecase diagrams">
 
 
 ### 誹謗中傷度計測機能 Function to measure the degree of slander
