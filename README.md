@@ -77,7 +77,7 @@
 - Basic
   - Receive a message.
   - Analyze the message using morphological analysis.
-  - Input the form-factor-analyzed message to the learned Bert, and estimate the degree of slander.
+  - Input the　morphological-analyzed message to the learned Bert, and estimate the degree of slander.
   - The learned Bert outputs the slander level.
   - Return the slander level.
 - Alternative Course
