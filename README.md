@@ -92,8 +92,10 @@
 - Alternative Course
   - Bertでの誹謗中傷度の算出に時間がかかり、エラーになればtime outのエラーを出力する。
 <br>
+#### Usecase diagram of Function to measure the degree of slande
 <img width="1000" alt="スクリーンショット 2022-01-20 16 03 20" src="https://user-images.githubusercontent.com/52820882/150290007-679aa353-a3e4-4902-b6b7-dbb36b0e06cf.png" title="usecase diagrams">
 
+#### Robustness diagrams of Function to measure the degree of slande
 <img width="859" alt="スクリーンショット 2022-01-20 16 46 43" src="https://user-images.githubusercontent.com/52820882/150295403-6c4723be-15ad-4e4b-8986-e3468e4e4a74.png" title="Robustness diagrams">
 
 ### Function to send the measurement result to slack
