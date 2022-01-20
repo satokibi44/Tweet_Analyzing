@@ -117,6 +117,9 @@
 <br>
 <img width="500" alt="スクリーンショット 2022-01-19 4 58 14" src="https://user-images.githubusercontent.com/53958213/150278545-29d1fa59-5431-4907-9515-66a6b78d0a76.png">
 
+### Robustness diagram of function for slackbot to send warnings
+<img width="500" alt="スクリーンショット 2022-01-19 4 58 14" src="https://user-images.githubusercontent.com/53958213/150310907-6b7b12d9-4a76-4c9d-b849-e50ce9771fa2.jpeg">
+
 
 ### Usecase diagram
 <img width="1690" alt="スクリーンショット 2022-01-19 4 58 14" src="https://user-images.githubusercontent.com/53958213/150009470-562c90bb-88e9-4d0b-aa0b-87a024c58f3e.png">
