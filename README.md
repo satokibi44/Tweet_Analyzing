@@ -73,7 +73,7 @@
 <br>
 
 
-### Function to measure the degree of slander
+### 誹謗中傷度計測機能 Function to measure the degree of slander
 - Basic
   - Receive a message.
   - Analyze the message using form factors.
@@ -82,9 +82,7 @@
   - Return the slander level.
 - Alternative Course
   - It takes time for Bert to calculate the slander level, and if an error occurs, it outputs a timeout error.
-<br>
 
-### 誹謗中傷度計測機能
 - Basic
   - メッセージを受け取る。
   - メッセージを形要素解析する。
@@ -94,6 +92,7 @@
 - Alternative Course
   - Bertでの誹謗中傷度の算出に時間がかかり、エラーになればtime outのエラーを出力する。
 <br>
+<img width="500" alt="スクリーンショット 2022-01-20 16 03 20" src="https://user-images.githubusercontent.com/52820882/150290007-679aa353-a3e4-4902-b6b7-dbb36b0e06cf.png">
 
 ### Function to send the measurement result to slack
 - Basic Course:
