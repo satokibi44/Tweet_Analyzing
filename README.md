@@ -92,7 +92,7 @@
 - Alternative Course
   - Bertでの誹謗中傷度の算出に時間がかかり、エラーになればtime outのエラーを出力する。
 <br>
-<img width="500" alt="スクリーンショット 2022-01-20 16 03 20" src="https://user-images.githubusercontent.com/52820882/150290007-679aa353-a3e4-4902-b6b7-dbb36b0e06cf.png">
+<img width="1000" alt="スクリーンショット 2022-01-20 16 03 20" src="https://user-images.githubusercontent.com/52820882/150290007-679aa353-a3e4-4902-b6b7-dbb36b0e06cf.png">
 
 ### Function to send the measurement result to slack
 - Basic Course:
