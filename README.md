@@ -72,10 +72,10 @@
 <br>
 
 #### Usecase diagram of Function to send the retrieved message to the API
-<img width="1000" alt="send the retrieved message to the API" src="https://user-images.githubusercontent.com/46553513/150320031-4710bf69-8a76-41d9-92e0-8416cb2a427d.jpg" title="usecase diagrams">
+<img width="500" alt="send the retrieved message to the API" src="https://user-images.githubusercontent.com/46553513/150320031-4710bf69-8a76-41d9-92e0-8416cb2a427d.jpg" title="usecase diagrams">
 
 #### Robustness diagrams of Function to send the retrieved message to the API
-<img width="859" alt="send the retrieved message to the API" src="https://user-images.githubusercontent.com/46553513/150321960-16435812-dd09-41cb-aa88-5925023b863a.png" title="Robustness diagrams">
+<img width="500" alt="send the retrieved message to the API" src="https://user-images.githubusercontent.com/46553513/150321960-16435812-dd09-41cb-aa88-5925023b863a.png" title="Robustness diagrams">
 
 
 ### 誹謗中傷度計測機能 Function to measure the degree of slander
