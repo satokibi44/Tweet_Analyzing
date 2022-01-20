@@ -47,7 +47,7 @@
 
 ## Usecase Analysis
 ### Usecase diagram (complete)
-<img width="1690" alt="スクリーンショット 2022-01-19 4 58 14" src="https://user-images.githubusercontent.com/53958213/150009470-562c90bb-88e9-4d0b-aa0b-87a024c58f3e.png">
+<img width="1168" alt="whole use case diagram" src="https://user-images.githubusercontent.com/44742053/150332812-72a511d0-2d0a-4422-93b1-66ff89f11ad2.png">
 <br>
 
 ### 1. メッセージを取得する機能 Function to retrieve messages
@@ -88,7 +88,7 @@
   - Bertでの誹謗中傷度の算出に時間がかかり、エラーになればtime outのエラーを出力する It takes time for Bert to calculate the slander level, and if an error occurs, it outputs a timeout error.
 
 #### Usecase diagram
-<img width="1000" alt="スクリーンショット 2022-01-20 16 03 20" src="https://user-images.githubusercontent.com/52820882/150290007-679aa353-a3e4-4902-b6b7-dbb36b0e06cf.png" title="usecase diagrams">
+<img width="975" alt="Function to measure the degree of slander" src="https://user-images.githubusercontent.com/44742053/150331774-fffed794-f1f3-494f-ace0-b401cafb5a6a.png">
 
 #### Robustness diagram
 <img width="859" alt="スクリーンショット 2022-01-20 16 46 43" src="https://user-images.githubusercontent.com/52820882/150295403-6c4723be-15ad-4e4b-8986-e3468e4e4a74.png" title="Robustness diagrams">
