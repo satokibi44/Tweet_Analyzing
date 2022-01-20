@@ -79,8 +79,6 @@
 
 <img width="1000" alt=" " src="https://user-images.githubusercontent.com/46553513/150314767-9239a4c1-6a08-4ce4-8d22-9ba2c75b6613.jpg" title="usecase diagrams">
 
-### 誹謗中傷度計測機能 Function to measure the degree of slander
-
 - Basic
   - Receive a message.
   - Analyze the message using morphological analysis.
