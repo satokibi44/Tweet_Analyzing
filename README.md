@@ -60,8 +60,9 @@
   - 運営に報告メッセージを送信する Send a report message to the management
 
 #### Usecase diagram
-
+<img width="500" alt="retrieve messages" src="https://user-images.githubusercontent.com/49672556/150351422-99471718-1f96-4b57-a0fa-a71d1f744449.png" title="usecase diagrams">
 #### Robustness diagram
+<img width="500" alt="retrieve messages" src="https://user-images.githubusercontent.com/49672556/150351699-41439953-1e79-4684-9696-d271492a4a7c.png" title="Robustness diagrams">
 <br>
 
 ### 2. APIに取得したメッセージを送る機能 Function to send the retrieved message to the API
