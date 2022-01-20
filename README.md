@@ -92,18 +92,24 @@
 - Alternative Course
   - Bertでの誹謗中傷度の算出に時間がかかり、エラーになればtime outのエラーを出力する。
 <br>
+
 #### Usecase diagram of Function to measure the degree of slande
 <img width="1000" alt="スクリーンショット 2022-01-20 16 03 20" src="https://user-images.githubusercontent.com/52820882/150290007-679aa353-a3e4-4902-b6b7-dbb36b0e06cf.png" title="usecase diagrams">
 
 #### Robustness diagrams of Function to measure the degree of slande
 <img width="859" alt="スクリーンショット 2022-01-20 16 46 43" src="https://user-images.githubusercontent.com/52820882/150295403-6c4723be-15ad-4e4b-8986-e3468e4e4a74.png" title="Robustness diagrams">
 
-### Function to send the measurement result to slack
+### 測定結果をslackに送る機能 Function to send the measurement result to slack
 - Basic Course:
   - After measuring the degree of slander, the user can receive a measurement result in slack sent by slack bot.
 - Alternative Course:
   - If the message is not slander, the user receives nothing in slack.
 <br>
+
+#### Usecase diagram
+<img width="622" alt="Function to send the measurement result to slack" src="https://user-images.githubusercontent.com/44742053/150313404-1a9ad098-962c-4d88-8087-3c808f577cdd.png">
+
+#### Robustness diagram
 
 
 ### slackbotが警告を送信する機能 Function for slackbot to send warnings
