@@ -103,7 +103,7 @@
 <br>
 
 
-### slackbotが警告を送信する機能 Functionality for slackbot to send warnings
+### slackbotが警告を送信する機能 Function for slackbot to send warnings
 - Basic Course:
   - slack botが警告メッセージを送ることに成功する. slack bot succed to send warning message to slack.
   - slackがbotから送られたメッセージを表示する. slack display message which slack bot send.
@@ -112,6 +112,8 @@
   - 4回までretryする slack bot retry to send message up to 4 times.
   - 4回失敗した場合、終了する. When slack bot fails 4 times to retry, slack bot stops sending messages.
 <br>
+<img width="500" alt="スクリーンショット 2022-01-19 4 58 14" src="https://user-images.githubusercontent.com/53958213/150278545-29d1fa59-5431-4907-9515-66a6b78d0a76.png">
+
 
 ### Usecase diagram
 <img width="1690" alt="スクリーンショット 2022-01-19 4 58 14" src="https://user-images.githubusercontent.com/53958213/150009470-562c90bb-88e9-4d0b-aa0b-87a024c58f3e.png">
