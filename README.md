@@ -42,7 +42,8 @@
 - slander level API
 - alert-bot
 - slack
-<img width="754" alt="Glossary" src="https://user-images.githubusercontent.com/44742053/150326793-4e8e1558-8bb5-4365-ba23-4d69eadd2d2b.png">
+- Bert
+<img width="754" alt="Glossary" src="https://user-images.githubusercontent.com/49672556/150479536-96c3ef1e-daa1-4207-9402-8aa76be8e6f5.png">
 <br>
 
 ## Usecase Analysis
