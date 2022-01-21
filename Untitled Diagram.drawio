@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" modified="2022-01-20T13:25:12.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="beXWDzPIq0MlkaUBFPp0" version="16.4.2" type="github" pages="2">
+  <diagram id="8HBrPwVohqAJFLUpzc_i" name="Page-1">
+    <mxGraphModel dx="782" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TV3-apBF_OgWpbIYJi4T-2" value="&lt;h3 dir=&quot;auto&quot; style=&quot;box-sizing: border-box ; margin-top: 24px ; margin-bottom: 16px ; font-size: 1.25em ; line-height: 1.25 ; color: rgb(36 , 41 , 47) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;Function to retrieve messages&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="-390" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TV3-apBF_OgWpbIYJi4T-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TV3-apBF_OgWpbIYJi4T-3" target="TV3-apBF_OgWpbIYJi4T-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TV3-apBF_OgWpbIYJi4T-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TV3-apBF_OgWpbIYJi4T-3" target="TV3-apBF_OgWpbIYJi4T-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TV3-apBF_OgWpbIYJi4T-3" value="&lt;span style=&quot;color: rgb(36 , 41 , 47) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;slackAPI detects a message sent to a specified channel.&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-320" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TV3-apBF_OgWpbIYJi4T-4" value="&lt;span style=&quot;color: rgb(36 , 41 , 47) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Failed to retrieve message.&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-190" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TV3-apBF_OgWpbIYJi4T-5" value="&lt;span style=&quot;color: rgb(36 , 41 , 47) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Retrieve the message that was sent.&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TV3-apBF_OgWpbIYJi4T-8" value="&amp;lt;&amp;lt;precedes&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-320" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GiTluwXUyKbuJEWSS_cX" name="Page-2">
+    <mxGraphModel dx="782" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-0" />
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-1" parent="2tG4K8XRWUKRA76TU9Tb-0" />
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2tG4K8XRWUKRA76TU9Tb-1" source="2tG4K8XRWUKRA76TU9Tb-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="2tG4K8XRWUKRA76TU9Tb-1">
+          <mxGeometry x="90" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2tG4K8XRWUKRA76TU9Tb-1" source="2tG4K8XRWUKRA76TU9Tb-7" target="2tG4K8XRWUKRA76TU9Tb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2tG4K8XRWUKRA76TU9Tb-1" source="2tG4K8XRWUKRA76TU9Tb-7" target="2tG4K8XRWUKRA76TU9Tb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-7" value="slackAPI" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="2tG4K8XRWUKRA76TU9Tb-1">
+          <mxGeometry x="210" y="120" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2tG4K8XRWUKRA76TU9Tb-1" source="2tG4K8XRWUKRA76TU9Tb-8" target="2tG4K8XRWUKRA76TU9Tb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-8" value="&lt;span style=&quot;color: rgb(36 , 41 , 47) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;slackAPI detects a message sent to a specified channel.&lt;/span&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="2tG4K8XRWUKRA76TU9Tb-1">
+          <mxGeometry x="380" y="105" width="166" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-10" value="&lt;span style=&quot;color: rgb(36 , 41 , 47) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Retrieve the message that was sent.&lt;/span&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="2tG4K8XRWUKRA76TU9Tb-1">
+          <mxGeometry x="610" y="105" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2tG4K8XRWUKRA76TU9Tb-1" source="2tG4K8XRWUKRA76TU9Tb-12" target="2tG4K8XRWUKRA76TU9Tb-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2tG4K8XRWUKRA76TU9Tb-1" source="2tG4K8XRWUKRA76TU9Tb-12" target="2tG4K8XRWUKRA76TU9Tb-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-12" value="&lt;span style=&quot;color: rgb(36 , 41 , 47) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Failed to retrieve message.&lt;/span&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="2tG4K8XRWUKRA76TU9Tb-1">
+          <mxGeometry x="380" y="240" width="166" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-14" value="&lt;span style=&quot;color: rgb(36 , 41 , 47) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Try to get it again, and if you still can&#39;t get it, quit.&lt;/span&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="2tG4K8XRWUKRA76TU9Tb-1">
+          <mxGeometry x="614" y="240" width="186" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2tG4K8XRWUKRA76TU9Tb-16" value="&lt;span style=&quot;color: rgb(36 , 41 , 47) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Send a report message to the management&lt;/span&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="2tG4K8XRWUKRA76TU9Tb-1">
+          <mxGeometry x="610" y="370" width="186" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

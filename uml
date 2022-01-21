@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2022-01-20T07:39:50.320Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Mf-sqQmYsKU4TWi8L1T7" version="16.4.2" type="github">
+  <diagram id="XQy6PF5_k_7LgOEYz3wt" name="Page-1">
+    <mxGraphModel dx="1183" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-1" value="called this API that calculates slander level" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="95" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-4" value="get message from slack bot" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="95" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-5" value="Analyze the message using morphological analysis." style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="75" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-6" value="Input the　morphological-analyzed message to the learned Bert" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="70" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-7" value="Return the slander level." style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="250" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-8" value="Bert" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-9" value="Does it takes more than 30 seconds to calculate the slander level?" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="65" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-10" value="Return the time-out error message." style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="250" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.991;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cTFrd8J8QRbQD1G8grGl-1" target="cTFrd8J8QRbQD1G8grGl-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="160" as="sourcePoint" />
+            <mxPoint x="690" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.014;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cTFrd8J8QRbQD1G8grGl-4" target="cTFrd8J8QRbQD1G8grGl-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="135" as="sourcePoint" />
+            <mxPoint x="470" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.027;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cTFrd8J8QRbQD1G8grGl-5" target="cTFrd8J8QRbQD1G8grGl-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="160" as="sourcePoint" />
+            <mxPoint x="690" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cTFrd8J8QRbQD1G8grGl-6" target="cTFrd8J8QRbQD1G8grGl-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="280" as="sourcePoint" />
+            <mxPoint x="790" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.007;entryY=0.543;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cTFrd8J8QRbQD1G8grGl-8" target="cTFrd8J8QRbQD1G8grGl-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="280" as="sourcePoint" />
+            <mxPoint x="790" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.293;exitY=0.964;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cTFrd8J8QRbQD1G8grGl-9" target="cTFrd8J8QRbQD1G8grGl-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="280" as="sourcePoint" />
+            <mxPoint x="1100" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.836;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.238;entryY=0.177;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cTFrd8J8QRbQD1G8grGl-9" target="cTFrd8J8QRbQD1G8grGl-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1011.02" y="209.96000000000004" as="sourcePoint" />
+            <mxPoint x="938" y="278.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-20" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="210" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-21" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-22" value="SLACK BOT" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cTFrd8J8QRbQD1G8grGl-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cTFrd8J8QRbQD1G8grGl-22" target="cTFrd8J8QRbQD1G8grGl-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="290" as="sourcePoint" />
+            <mxPoint x="500" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
