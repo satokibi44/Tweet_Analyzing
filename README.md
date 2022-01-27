@@ -125,3 +125,10 @@
 
 #### Robustness diagram
 <img width="500" alt="スクリーンショット 2022-01-19 4 58 14" src="https://user-images.githubusercontent.com/53958213/150310907-6b7b12d9-4a76-4c9d-b849-e50ce9771fa2.jpeg">
+
+### Sequence diagram
+<img width="800" alt="スクリーンショット 2022-01-27 19 13 54" src="https://user-images.githubusercontent.com/53958213/151343377-3a68ff5e-0cf2-4996-8099-9ea98f3c5fca.png">
+
+### Class diagram
+<img width="800" alt="スクリーンショット 2022-01-27 19 43 19" src="https://user-images.githubusercontent.com/53958213/151343485-60153edd-b91e-4cd9-ba56-5f526945cf02.png">
+
