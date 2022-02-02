@@ -1,10 +1,11 @@
-import requests
-# .env ファイルをロードして環境変数へ反映
-from dotenv import load_dotenv
-load_dotenv()
-
-# 環境変数を参照
 import os
+from os.path import join, dirname
+import requests
+from dotenv import load_dotenv
+
+dotenv_path = join(dirname(__file__), 'prod.env')
+load_dotenv(dotenv_path)
+
 
 class Slackbot():
     TOKEN = os.getenv("TOKEN")
