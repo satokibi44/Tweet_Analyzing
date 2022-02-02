@@ -8,4 +8,4 @@ services:
     tty: true
     command: "bash"
     volumes:
-      - ./src:/src/
+      - ../src:/src/
