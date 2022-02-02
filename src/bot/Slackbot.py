@@ -27,7 +27,9 @@ class Slackbot():
             'channel': self.CHANNEL,
             'text': 'テストです。'
         }
-        r = requests.post(url, headers=headers, data=data)
-        print("return ", r.json())
+        for i in range(5):
+            r = requests.post(url, headers=headers, data=data)
+            if r.json()["ok"]:
+                return True
 
-        return "slander"
+        return False
