@@ -1,8 +1,8 @@
-
+from Slackbot import Slackbot
 
 def main():
-    print("aaaa")
-
+    bot = Slackbot()
+    
 
 if __name__ == "__main__":
     main()
