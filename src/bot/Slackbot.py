@@ -12,7 +12,16 @@ class Slackbot():
     CHANNEL = os.getenv("CHANNEL")
 
     def get_message():
-        # please complete
+        url = "https://slack.com/api/conversations.history"
+        token = "aaaaaa"
+        header = {
+            "Authorization":"Bearer {}".format(token)
+        }
+        payload = {
+            "channel":"AAAAAAAA"
+            #"channel": self.CHANNEL
+        }
+        message = requests.get(url, headers=header, params=payload)
         return "message"
 
 
