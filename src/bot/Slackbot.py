@@ -15,12 +15,12 @@ class Slackbot():
     # Get mssage from Slack
     def get_message(self):
         url = "https://slack.com/api/conversations.history"
-        token = "xoxb-2920457641283-3055852838307-VZY2Cejjr4htrbNybtwcsnCc"
+        token = self.TOKEN
         header = {
             "Authorization": "Bearer {}".format(token)
         }
         payload = {
-            "channel": "C030LTJ6QAX"
+            "channel": self.CHANNEL
         }
         message = requests.get(url, headers=header, params=payload)
         content_bin = message.content.decode("utf-8")
@@ -48,19 +48,19 @@ class Slackbot():
 
         # Check wether the message is a slander (> 0.6 is a slander)
         if measurement_result > 0.6:
-            print("This is a Slander")
+            print("This is a Slander::")
             return "This is a Slander"
         else:
             print(None)
             return None
 
     # Send slander message to Slack by using slack-bot
-    def send_slander_message_to_slack(self, message):
+    def send_slander_message_to_slack(self, message, slander):
         url = "https://slack.com/api/chat.postMessage"
         headers = {"Authorization": "Bearer " + self.TOKEN}
         data = {
             'channel': self.CHANNEL,
-            'text': 'テストです。'
+            'text': message + slander,
         }
         for i in range(5):
             r = requests.post(url, headers=headers, data=data)

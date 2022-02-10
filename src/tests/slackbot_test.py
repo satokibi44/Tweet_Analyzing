@@ -5,7 +5,7 @@ def test_success_send_message_to_slack():
     bot = Slackbot()
     bot.CHANNEL = "analysis_test"
 
-    is_success = bot.send_slander_message_to_slack("test")
+    is_success = bot.send_slander_message_to_slack("test", "This is Slander!")
     assert is_success == True
 
 def test_fail_send_message_to_slack():
@@ -13,7 +13,7 @@ def test_fail_send_message_to_slack():
     bot.TOKEN = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     bot.CHANNEL = "analysis_test"
 
-    is_success = bot.send_slander_message_to_slack("test")
+    is_success = bot.send_slander_message_to_slack("test", "This is Slander")
     assert is_success == False
 
 def test_send_message_to_slander_api():
