@@ -1,6 +1,7 @@
 import os
 from os.path import join, dirname
 import requests
+import json
 from dotenv import load_dotenv
 
 dotenv_path = join(dirname(__file__), 'prod.env')
@@ -14,16 +15,18 @@ class Slackbot():
     # Get mssage from Slack
     def get_message(self):
         url = "https://slack.com/api/conversations.history"
-        token = "aaaaaa"
+        token = "xoxb-2920457641283-3055852838307-VZY2Cejjr4htrbNybtwcsnCc"
         header = {
             "Authorization": "Bearer {}".format(token)
         }
         payload = {
-            "channel": "AAAAAAAA"
-            # "channel": self.CHANNEL
+            "channel": "C030LTJ6QAX"
         }
         message = requests.get(url, headers=header, params=payload)
-        return "message"
+        content_bin = message.content.decode("utf-8")
+        content_json = json.loads(content_bin)
+        latest_msg = content_json["messages"][0]["text"]
+        return latest_msg
 
     # Send message and get slander level score from slander level api
     def send_message_to_slander_api(self, message):
@@ -50,12 +53,6 @@ class Slackbot():
         else:
             print(None)
             return None
-        
-        # # Send warning massage to Slack by using slack-bot
-        # warning_message = "This is a Slander"
-        # payload = '{"text":"%s"}' % warning_message
-        # response = requests.post('https://hooks.slack.com/services/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', data=payload)
-        # print(response.text)
 
     # Send slander message to Slack by using slack-bot
     def send_slander_message_to_slack(self, message):
