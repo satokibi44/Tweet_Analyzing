@@ -48,6 +48,3 @@ class Slackbot():
                 return True
 
         return False
-
-slack = Slackbot()
-slack.get_message()
