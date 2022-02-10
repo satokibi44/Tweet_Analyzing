@@ -3,3 +3,14 @@
 prod.env
 .pytest_cache
 __pycache__
+
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
