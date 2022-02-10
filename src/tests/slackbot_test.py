@@ -19,6 +19,6 @@ def test_fail_send_message_to_slack():
 def test_send_message_to_slander_api(self):
     bot = Slackbot()
     is_success = bot.send_message_to_slander_api("お前馬鹿かよ")
-    self.assertEqual(is_success, 0.9252830743789673)
+    self.assertEqual(is_success, [0.9252830743789673])
 
 
