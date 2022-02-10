@@ -29,7 +29,7 @@ class Slackbot():
         message = message
         param = {'msg': message}
         res = requests.get(url, params=param)
-        slander = res.json()
+        slander = res.json()["body"]["kusoripu_score"]
         return slander
 
     def send_slander_message_to_slack(self, message):
