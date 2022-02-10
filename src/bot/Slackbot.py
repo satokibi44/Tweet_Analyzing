@@ -13,13 +13,12 @@ class Slackbot():
 
     def get_message():
         url = "https://slack.com/api/conversations.history"
-        token = "aaaaaa"
+        token = "xoxb-2920457641283-3055852838307-VZY2Cejjr4htrbNybtwcsnCc"
         header = {
             "Authorization": "Bearer {}".format(token)
         }
         payload = {
-            "channel": "AAAAAAAA"
-            # "channel": self.CHANNEL
+            "channel": "C030LTJ6QAX"
         }
         message = requests.get(url, headers=header, params=payload)
         return "message"
