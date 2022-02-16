@@ -53,12 +53,14 @@ class Slackbot():
 
     # Send slander message to Slack by using slack-bot
     def send_slander_message_to_slack(self, message, slander):
+
         url = "https://slack.com/api/chat.postMessage"
         headers = {"Authorization": "Bearer " + self.TOKEN}
         data = {
             'channel': self.CHANNEL,
-            'text': slander + " `" + message + "`",
+            'text': " `" + message + "`",
         }
+
         if slander is None:
             print("No slander")
             return False
