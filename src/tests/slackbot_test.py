@@ -21,3 +21,8 @@ def test_send_message_to_slander_api():
     is_success = bot.send_message_to_slander_api("お前馬鹿かよ")
     assert is_success == [0.9252830743789673]
 
+def test_get_measurement_result():
+    bot = Slackbot()
+    measurement_result_from_slander_api = [0.9252830743789673]
+    is_slander = bot.get_measurement_result(measurement_result_from_slander_api)
+    assert is_slander == "This is a Slander"

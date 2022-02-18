@@ -38,13 +38,10 @@ class Slackbot():
         return slander
 
     # Get measurement result from slander level api and check whether it is a slander
-    def get_measurement_result(self):
+    def get_measurement_result(self, measurement_result_from_slander_api):
 
         # get slander level from slander level api
-        message = self.get_message()
-        measurement_result_from_slander_api = self.send_message_to_slander_api(message)
         measurement_result = measurement_result_from_slander_api[0]
-        # print(measurement_result)
 
         # Check wether the message is a slander (> 0.6 is a slander)
         if measurement_result > 0.6:
