@@ -58,7 +58,7 @@ class Slackbot():
         headers = {"Authorization": "Bearer " + self.TOKEN}
         data = {
             'channel': self.CHANNEL,
-            'text': " `" + message + "`",
+            'text': " This is a Slander`" + message + "`",
         }
 
         if slander is None:
