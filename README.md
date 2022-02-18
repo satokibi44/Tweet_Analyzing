@@ -130,5 +130,5 @@
 <img width="800" alt="スクリーンショット 2022-01-27 19 13 54" src="https://user-images.githubusercontent.com/53958213/151343377-3a68ff5e-0cf2-4996-8099-9ea98f3c5fca.png">
 
 ### Class diagram
-<img width="800" alt="スクリーンショット 2022-01-27 19 43 19" src="https://user-images.githubusercontent.com/53958213/154623203-8ca667c3-1e55-4e04-9751-ca4b59d8d364.png">
+<img width="800" alt="スクリーンショット 2022-01-27 19 43 19" src="https://user-images.githubusercontent.com/53958213/154631280-12d03e3a-f553-46d1-91c7-53d322560d7e.png">
 
