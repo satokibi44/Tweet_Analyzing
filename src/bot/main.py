@@ -1,4 +1,4 @@
-from Slackbot import Slackbot
+from slackbot import Slackbot
 
 def main():
     bot = Slackbot()

@@ -1,4 +1,4 @@
-from bot.Slackbot import Slackbot
+from bot.slackbot import Slackbot
 
 
 def test_success_send_message_to_slack():
