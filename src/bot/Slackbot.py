@@ -15,7 +15,7 @@ class Slackbot():
     # Get mssage from Slack
     def get_message(self):
         url = "https://slack.com/api/conversations.history"
-        token = "xoxb-2920457641283-3055852838307-VZY2Cejjr4htrbNybtwcsnCc"
+        token = self.TOKEN
         header = {
             "Authorization": "Bearer {}".format(token)
         }
@@ -52,16 +52,23 @@ class Slackbot():
             return None
 
     # Send slander message to Slack by using slack-bot
-    def send_slander_message_to_slack(self, message):
+    def send_slander_message_to_slack(self, message, slander):
+
         url = "https://slack.com/api/chat.postMessage"
         headers = {"Authorization": "Bearer " + self.TOKEN}
         data = {
             'channel': self.CHANNEL,
-            'text': 'テストです。'
+            'text': " `" + message + "`",
         }
+
+        if slander is None:
+            print("No slander")
+            return False
         for i in range(5):
             r = requests.post(url, headers=headers, data=data)
             if r.json()["ok"]:
                 return True
 
+        print("Error")
+        print(r.json())
         return False

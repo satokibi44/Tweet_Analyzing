@@ -24,6 +24,7 @@ resource "aws_lambda_function" "pbl" {
   package_type  = "Image"
   image_uri     = "${aws_ecr_repository.slack_bot.repository_url}:latest"
   architectures = ["arm64"]
+  timeout       = 60
   lifecycle {
     ignore_changes = [image_uri]
   }
