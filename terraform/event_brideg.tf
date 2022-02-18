@@ -1,7 +1,7 @@
 
 resource "aws_cloudwatch_event_rule" "lambda_pbl_regularly" {
   name = "lambda_pbl_regularly"
-  schedule_expression = "cron(0 13-17 ? * 6 *)"
+  schedule_expression = "cron(*/20 4-7 ? * 6 *)"
 }
 
 resource "aws_cloudwatch_event_target" "pbl" {
